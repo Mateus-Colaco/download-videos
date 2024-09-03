@@ -1,0 +1,68 @@
+body{
+  background-color: #181a1b;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+label, input, button {
+  margin: 10px 0;
+}
+
+button {
+  font-family: Montserrat;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: #748059;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #626c4b;
+}
+
+label {
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #cbcbcb;
+  margin-left: 30px;
+
+}
+
+
+input#videoUrl {
+  text-align: center;
+  padding: 1.5%;
+  border: 3px solid #292929;
+  border-radius: 50px;
+  outline: none;
+  color: #fff;
+  background: #292929;
+  font-family: Montserrat semibold;
+}
+
+
+#sign-in-btn:active {
+  color: #5b3249;
+  background-color: #fff;
+  border: 3px solid #301e28;
+}
+
+::placeholder {
+  text-align: center;
+  font-family: Montserrat semibold;
+  color: #626262;
+  font-size: 18px;
+}
